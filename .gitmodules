@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/Nurislam0323/ndzakirov.github.io.git
+	branch = main
