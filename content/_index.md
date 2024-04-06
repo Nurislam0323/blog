@@ -50,17 +50,67 @@ sections:
       username: admin
     design:
       columns: '1'
+  - block: features
+    content:
+      title: Навыки
+      items:
+        - name: Python
+          description: 60%
+          icon: python
+          icon_pack: fab
+        - name: Рисование
+          description: 120%
+          icon: paint-brush
+          icon_pack: fas
+        - name: Английский
+          description: 20%
+          icon: language
+          icon_pack: fas
+        - name: Обучение других
+          description: 10%
+          icon: mortar-board
+          icon_pack: fas
   - block: experience
     content:
-      title: Experience
+      title: Опыт
       # Date format for experience
-      #   Refer to https://docs.hugoblox.com/customization/#date-format
+      #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
       # Experiences.
       #   Add/remove as many `experience` items below as you like.
       #   Required fields are `title`, `company`, and `date_start`.
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: Проджект-менеджер
+          company: brainz CROC
+          company_url: 'https://www.croc.ru/'
+          company_logo: White_Logo
+          location: Москва
+          date_start: '2022-10-01'
+          date_end: '2022-12-25'
+          description: |2-
+              Полученные навыки:
+
+              * Customer-development
+              * Дизайн-мышление
+              * Наставничество
+        - title: Репетитор
+          company: Мой дом
+          company_url: 'https://www.croc.ru/'
+          company_logo: teacher
+          location: Москва
+          date_start: '2023-01-27'
+          date_end: ''
+          description: Обучаю детей математике
+        - title: Разработчик
+          company: brainz CROC
+          company_url: 'https://www.croc.ru/'
+          company_logo: Green_Logo
+          location: Москва
+          date_start: '2020-01-11'
+          date_end: '2021-03-31'
+          description: Научилась создавать сайты и работать в команде
       items:
         - title: CEO
           company: GenCoin
